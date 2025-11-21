@@ -11,7 +11,8 @@ Tablas principales:
     marcas
     modelos
     usuarios (solo para manejo interno, no forma parte del TP3)
-    Se incluye el script SQL dentro del repositorio.
+
+Se incluye el script SQL dentro del repositorio.
 
 # Endpoints Disponibles
 

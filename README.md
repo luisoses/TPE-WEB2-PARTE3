@@ -28,6 +28,25 @@ Se incluye el script SQL dentro del repositorio.
     PUT     /brands/:id
 
 
+# Cómo probar con Postman
+    GET
+    http://localhost/TPE3WEB2/api/router.php?resource=cars
+    
+    POST
+    http://localhost/TPE3WEB2/api/router.php?resource=cars
+    Body → raw → JSON
+
+# Instalación
+
+    Clonar repositorio
+    
+    Importar la base de datos vehiculos-db-mod.sql
+    
+    Colocar el proyecto dentro de htdocs
+    
+    Acceder por navegador o Postman
+
+
 # 1. Obtener todos los vehículos
   GET /cars
 

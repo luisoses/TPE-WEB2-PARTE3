@@ -32,11 +32,17 @@ Retorna una lista completa de vehículos (tabla modelos).
 [
   {
     "ID_Modelo": 27,
+
     "ID_Marca": 4,
+
     "Modelo": "Civic",
+
     "Motor": "i4",
+
     "Combustible": "Nafta",
+
     "Transmision": "Manual",
+
     "Tipo": "Coupe"
   }
 ]

@@ -14,12 +14,13 @@ Tablas principales:
 - Se incluye el script SQL dentro del repositorio.
 
 # Endpoints Disponibles
-#Listado de rutas (desde router.php)
-GET     /cars
-GET     /cars/:id
-POST    /cars
-PUT     /cars/:id
-DELETE  /cars/:id
+
+  #Listado de rutas (desde router.php)
+  GET     /cars
+  GET     /cars/:id
+  POST    /cars
+  PUT     /cars/:id
+  DELETE  /cars/:id
 
 POST    /brands
 PUT     /brands/:id

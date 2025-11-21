@@ -16,7 +16,7 @@ Se incluye el script SQL dentro del repositorio.
 
 # Endpoints Disponibles
 
-  #Listado de rutas (desde router.php)
+    #Listado de rutas (desde router.php)
     
     GET     /cars
     GET     /cars/:id

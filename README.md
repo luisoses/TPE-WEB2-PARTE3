@@ -181,7 +181,7 @@ POST /cars
         [
           {
           
-            "message": "Vehículo eliminado"
+            "message": "El auto se borro de la base de datos con exito"
           }
         ]
 
@@ -190,7 +190,7 @@ POST /cars
         [
           { 
           
-            "error": "No existe el vehículo" 
+            "error": "El auto no existe" 
           }
         ]
 

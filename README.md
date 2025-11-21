@@ -34,11 +34,14 @@ Tablas principales:
 
   PUT     /brands/:id
 
+
 # 1. Obtener todos los vehículos
-GET /cars
-Retorna una lista completa de vehículos (tabla modelos).
+  GET /cars
+
+  Retorna una lista completa de vehículos (tabla modelos).
 
 - Ejemplo de respuesta (200):
+
 [
   {
     "ID_Modelo": 27,

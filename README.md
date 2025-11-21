@@ -7,8 +7,11 @@ Esta API REST permite consultar, crear, modificar y eliminar información relaci
 # La API utiliza la misma base del TP anterior:
 
 Tablas principales:
+
 -marcas
+
 -modelos
+
 -usuarios (solo para manejo interno, no forma parte del TP3)
 
 - Se incluye el script SQL dentro del repositorio.
@@ -17,13 +20,19 @@ Tablas principales:
 
   #Listado de rutas (desde router.php)
   GET     /cars
+  
   GET     /cars/:id
+  
   POST    /cars
+  
   PUT     /cars/:id
+  
   DELETE  /cars/:id
 
-POST    /brands
-PUT     /brands/:id
+ 
+  POST    /brands
+
+  PUT     /brands/:id
 
 # 1. Obtener todos los vehículos
 GET /cars

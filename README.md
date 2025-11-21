@@ -1,4 +1,7 @@
 # TPE-WEB2-PARTE3
+    INTEGRANTES:
+    LUIS OSES
+    MAXIMO CALAMANTE
 
 # API REST – Vehículos (TPE Parte 3)
 Esta API REST permite consultar, crear, modificar y eliminar información relacionada con vehículos y marcas.

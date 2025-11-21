@@ -33,7 +33,7 @@ class CarsApiController {
         $car = $this->carmodel->getCar($id);
 
         if(!$car) {
-            return $this->view->response("La tarea con el id=$id no existe", 404);
+            return $this->view->response("El elemento con el id=$id no existe", 404);
         }
 
         return $this->view->response($car);
@@ -142,4 +142,5 @@ class CarsApiController {
         $this->carmodel->deleteCar($id);
         $this->view->response("El auto se borro de la base de datos con exito");
     }
+
 }
